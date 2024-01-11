@@ -6,7 +6,7 @@ var maximumValue = function(strs) {
     }
 
     let arr = arr1.concat(arr2);
-    let res = Math.max(...arr)
+    let res = Math.max(...arr);
 
     return(res);
 };
