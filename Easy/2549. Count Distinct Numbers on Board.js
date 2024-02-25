@@ -1,0 +1,1 @@
+distinctIntegers = (n) => n - (1 % n);
