@@ -3,7 +3,7 @@ var smallestFromLeaf = function(root) {
     const alphabhets = 'abcdefghijklmnopqrstuvwxyz';
     function smallest(root, prevStr) {
         if (!root) return;
-         const str = `${alphabhets[root.val]}${prevStr}`;
+            const str = `${alphabhets[root.val]}${prevStr}`;
 
         if (!root.left && !root.right)
             prevMax = (!prevMax || prevMax > str) ? str : prevMax;
